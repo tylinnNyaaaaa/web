@@ -1,0 +1,64 @@
+* {
+    margin: 0 0 0.3vw 0 ;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color:rgb(47, 79, 79) ;
+    color: white;
+}
+
+header h1{
+    line-height: 50px;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 50px;
+}
+
+section{
+    background-color: #d0d6f1;
+}
+
+.content1 h2{
+    margin-top: 53px;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+/* 響應式設計 */
+@media and (max-width: 200px){
+    header ul{
+        position: absolute;
+        top: 20px;
+        5vw:left;
+        line-height: 30px;
+    }
+}

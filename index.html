@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一個網頁</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <header>
+    
+    <h1>我的網頁自學紀錄</h1>
+
+    <nav>
+    <ul>
+        <li><a href = "file:///C:/Users/Lin/Documents/web/motive.html">動機與目的</a></li>
+        <li><a href = "file:///C:/Users/Lin/Documents/web/solution.html">挫折和解決方案</a></li>
+        <li><a href = "file:///C:/Users/Lin/Documents/web/reflection.html">心得與省思</a></li>
+        <li><a href = "#">程式碼</a></li>
+        <li><a href = "file:///C:/Users/Lin/Documents/web/others.html">其他</a></li>
+    </ul>
+    </nav>
+
+    </header>
+
+    <main>
+
+    <section class = "content1">
+    <h2>2024/4/12學習內容:</h2>
+        <ol>
+            <li>下載環境:visual stdio code</li>
+            <li>html基本語法(html入門1)</li>
+                <ul>
+                    <li>分成head和body兩個部分，head用來宣告使用的語言、編碼、網站標題等基本資料，而body則是使用者看的到的網站內容</li>
+                    <li>在body內，可使用h標籤來呈現標題，而p分成1~6級，大小隨著數字遞減</li>
+                    <li>p標籤表示一般內文</li>
+                    <li>標籤可層疊加，<strong>strong標籤代表粗體字</strong>，而<em>em標籤是斜體字，屬於巢狀結構</em></li>
+                    <li>a標籤可以建立網頁的連結，需加入href的屬性來指定目標網址<a href="file:///C:/Users/Lin/Documents/%E7%B6%B2%E9%A0%81/index.html">例如這樣</a></li>
+                    <li>ol、ul標籤可用來建立清單(ul沒有數字標題)，而清單內文則使用li標籤，這個功能常用來做網站的導覽頁</li>
+                    <li>blockquote標籤可用引述他人的文字，可使用cite屬性來標註原作的網址，也可加入br標籤來換行</li>
+                    <li>img可以用來插入圖片，並且要用src屬性表達圖片位址、用alt來寫描述圖片的文字<br>例如:<br>
+                        <img src="images/IMG_2429.JPG"  alt="圖片範例"></li>
+                </ul>
+        </ol>
+    </section>
+
+    <section class = "content2">
+    <h2>2024/4/19學習內容:</h2>
+        <ol>
+            <li>網站基本外觀(css入門1)</li>
+                <ul>
+                    <li>color可指定顏色</li>
+                    <li>font-size= px可指定字體大小</li>
+                    <li>開一個單獨的css樣式表會較有效率，但需要用link語法將網頁與其連結</li>
+                    <li>border:邊框、padding:內邊距、margin:外邊距，有預設值，不過可以重設</li>
+                        <img src = "images/css格式圖.png" alt = "css格式圖" width = "500px"></li>
+                </ul>
+            <li>HTML5語意標籤(html入門2)</li>
+                <ul>
+                    <li>header:包括網站的logo等相關資訊</li>
+                    <li>nav:網站的導覽頁或主選單</li>
+                    <li>main:網站主要內容</li>
+                    <li>footer:網站的版權聲明等附加資訊</li>
+                    <li>section:可將main中分成不同區域</li>
+                    <li>可在css樣式表中用background-color語法指定各區域顏色</li>
+                </ul>
+                <p><img src = "images/結構圖.png" alt = "結構圖" ></p>
+        </ol>
+    </section>
+
+    <section class = "content3">
+    <h2>2024/4/26學習內容:</h2>
+        <ol>
+            <li>網站基本外觀(css入門2)</li>
+                <ul>
+                    <li>border語法可指定各區域邊框間距及顏色，solid代表實線，dashed是虛線，dotted則是圓點</li>
+                    <li>padding、margin可照上、右、下、左一一設定(順時鐘)，若只寫三個值的話則會分別是上、左右、下，而只寫兩個值的話會是上下、左右</li>
+                    <li>css也可單獨指定某部分的某種標籤，例如:section h1{敘述}</li>
+                    <li>text-decoration可用來設定文字樣式</li>
+                    <li>hover可讓文字在有鼠標懸停時呈現指定樣貌</li>
+                    <li>常用display: inline將區塊元素轉為行內元素(例:將導覽列轉為橫排)</li>
+                    <li>px是直接指定大小，vw則是依照螢幕的比例做調整</li>
+                </ul>
+            <li>position:相對位置和絕對位置(css入門3)</li>
+                <ul>
+                    <li>relative(相對):從原本的位置開始移動</li>
+                    <li>absolute(絕對):從版面左上角開始移動</li>         
+                </ul>
+            <li>class(html入門3)</li>
+                <ul>
+                    <li>class可用來區分不同的section，使其外觀可有區別</li>
+                    <li>可重複使用，容易維持網站風格一致性</li>
+                </ul>
+        </ol>
+    </section>
+
+    <section class = "content4">
+        <h2>2024/5/3學習內容:</h2>
+            <ol>
+                <li>css:flexbox(css入門4)</li>
+                    <ul>
+                        <li>輸入display:flex後，可更方便的改變子元素的位置</li>
+                        <li>center語法:水平置中</li>
+                        <li>spsace-between語法:延伸到父元素兩側</li>
+                        <li>space-evenly語法:平分空隙</li>
+                    </ul>
+                <li>css:媒體查詢、響應式設計(css入門5)</li>
+                    <ul>
+                        <li>可讓網頁在不同裝置時維持一樣的比例   
+                    </ul>
+            </ol>
+    </section>
+
+    <section class = "content5">
+        <h2>2024/5/31學習內容:</h2>
+            <ol>
+                <li>建立各項分頁並連結</li>
+                    <ul>
+                        <li>動機與目的</li>
+                        <li>挫折和解決方案</li>
+                        <li>心得與省思</li>
+                        <li>程式碼</li>
+                        <li>其他</li>
+                    </ul>
+                <li>學習git與github基本用法並上傳此專案</li>
+                    <ul>
+                        <li>下載git</li>   
+                        <li>註冊、初始化git</li>
+                        <li>學習git基本指令與步驟</li>
+                            <p><img src = "images/git.png" alt="git上傳流程圖"></p>
+                        <li>基本語法:config, init, status, add, commit, log等</li>
+                        <li>同步至github</li>
+                    </ul>
+            </ol>
+    </section>
+
+    <section class = "content6">
+        <h2>2024/6/7學習內容:</h2>
+            <ol>
+                <li>撰寫分頁細項</li>
+                    <ul>
+                        <li>整理遇到的困難、查詢方法解決</li>
+                        <li>在"其他"頁面中，我計畫製作一些實用的小工具，這周先查詢一些可行的方案</li>
+                    </ul>
+                <li>補齊前幾周的缺漏</li>
+                    <ul>
+                        <li>釐清git語法</li>   
+                        <li>統一各分頁美編</li>
+                        <li>複習前幾周內容</li>
+                    </ul>
+            </ol>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>作者:北一女中 二年和班 08 林采儀</p>
+    </footer>
+
+</body>
+</html>
