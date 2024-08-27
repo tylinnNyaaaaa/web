@@ -62,7 +62,7 @@ footer{
     align-items: center; 
 }
 /* 響應式設計 */
-@media and (max-width: 768px){
+@media(max-width: 768px){
     h1 {
     background-color: rosybrown;
   }      
