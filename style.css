@@ -41,7 +41,7 @@ section{
     peddings-left: 5vw;
     peddings-right: 5vw;
     display: flex;
-    justify-content:center;
+    align-items: center; 
 }
 
 .content1 h2{
