@@ -67,6 +67,6 @@ footer{
         flex-wrap: wrap;
     }
     header nav a{
-        width: 24%;
+        margin-top: 55px;
     }          
 }
