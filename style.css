@@ -62,10 +62,10 @@ footer{
     align-items: center; 
 }
 /* 響應式設計 */
-@media and (max-width: 200px){
-    header ul{
+@media and (max-width: 768px){
+    nav{
         position: absolute;
-        top: 20px;
+        top: 220px;
         5vw:left;
         line-height: 30px;
     }
