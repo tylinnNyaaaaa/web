@@ -45,8 +45,6 @@ section{
 section p{
     display: flex;
     align-items: center;
-    justify-content:center;
-    align-items: center; 
 }
 
 .content1{
