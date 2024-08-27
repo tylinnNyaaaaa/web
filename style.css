@@ -37,7 +37,11 @@ header ul{
 
 section{
     background-color: #d0d6f1;
+    line-height: 50px;
+    left: 10vw;
+    right: 10vw;
 }
+
 
 .content1 h2{
     margin-top: 53px;
