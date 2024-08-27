@@ -63,7 +63,7 @@ footer{
 }
 /* 響應式設計 */
 @media and (max-width: 768px){
-    header li{
-        display: block;
-    }       
+    h1 {
+    background-color: rosybrown;
+  }      
 }
