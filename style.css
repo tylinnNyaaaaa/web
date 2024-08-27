@@ -40,6 +40,8 @@ section{
     line-height: 50px;
     peddings-left: 5vw;
     peddings-right: 5vw;
+    display: flex;
+    justify-content:center;
 }
 
 .content1 h2{
