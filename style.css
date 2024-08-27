@@ -63,15 +63,10 @@ footer{
 }
 /* 響應式設計 */
 @media and (max-width: 768px){
-    header nav li {
-        margin: 0;
-        background: #d0d6f1;
-        display: block;
-        margin-bottom: 3px;
+    header{
+        flex-wrap: wrap;
     }
-    header nav a {
-        display: block;
-        padding: 10px;
-        text-align: center;
+    header nav a{
+        width: 24%;
     }          
 }
